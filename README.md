@@ -33,11 +33,12 @@ python bot_stat.py [command:stat|bot_list] [path_to_files|path_to_files_dir]
 python3 bot_stat.py stat /path/to/access.log
 ```
 Output:
-> ```
-Stat:
+>```
+>Stat:
 >* Read lines: 201691
 >- Count requests from users: 105609
 >- Count requests from bots: 96082
+>```
 
 ### Get list uniques bot UserAgents
 ```
