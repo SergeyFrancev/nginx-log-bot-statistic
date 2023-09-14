@@ -29,7 +29,7 @@ robot-environment: commercial
 modified-date: Thu, 29 May 2003 01:00:00 GMT
 modified-by: ABCdatos
 
-robot-id:                       acme-spider
+robot-id:                       Acme.Spider
 robot-name:                     Acme.Spider
 robot-cover-url:                http://www.acme.com/java/software/Acme.Spider.html
 robot-details-url:              http://www.acme.com/java/software/Acme.Spider.html
@@ -396,7 +396,7 @@ robot-environment:  hobby
 modified-date:      
 modified-by:
 
-robot-id: atn
+robot-id: atn.txt
 robot-name: ATN Worldwide
 robot-details-url:
 robot-cover-url:
@@ -502,7 +502,8 @@ robot-environment:
 modified-date:      Wed Feb 21 02:57:42 1996.
 modified-by:
 
-robot-id: robot-name: bayspider
+robot-id: bayspider
+robot-name: bayspider
 robot-cover-url: http://www.baytsp.com/
 robot-details-url: http://www.baytsp.com/
 robot-owner-name: BayTSP.com,Inc
@@ -1080,6 +1081,35 @@ robot-history: A complete re-design of the NWI robot (w3index) for DESIRE projec
 robot-environment: research
 modified-date: Tue, 04 Mar 1997 16:11:40 GMT
 modified-by: Yong Cao
+
+robot-id: conceptbot
+robot-name: Conceptbot
+robot-cover-url: http://www.aptltd.com/~sifry/conceptbot/tech.html
+robot-details-url: http://www.aptltd.com/~sifry/conceptbot
+robot-owner-name: David L. Sifry
+robot-owner-url: http://www.aptltd.com/~sifry
+robot-owner-email: david@sifry.com
+robot-status: development
+robot-purpose: indexing
+robot-type: standalone
+robot-platform: unix
+robot-availability: data
+robot-exclusion: yes
+robot-exclusion-useragent: conceptbot
+robot-noindex: yes
+robot-host: router.sifry.com
+robot-from: yes
+robot-useragent: conceptbot/0.3
+robot-language: perl5
+robot-description:The Conceptbot spider is used to research
+ concept-based search indexing techniques.  It uses a breadth first seach
+ to spread out the number of hits on a single site over time.  The spider
+ runs at irregular intervals and is still under construction.
+robot-history: This spider began as a research project at Sifry
+ Consulting in April 1996.
+robot-environment: research
+modified-date: Mon, 9 Sep 1996 15:31:07 GMT
+modified-by: David L. Sifry <david@sifry.com>
 
 robot-id: confuzzledbot
 robot-name: ConfuzzledBot
@@ -5944,6 +5974,33 @@ robot-environment: service
 modified-date: Tue, 27 June 2000
 modified-by: nick@webthing.com
 
+robot-id: sitegrabber
+robot-name: Open Text Index Robot
+robot-cover-url: http://index.opentext.net/main/faq.html
+robot-details-url: http://index.opentext.net/OTI_Robot.html
+robot-owner-name: John Faichney
+robot-owner-url:
+robot-owner-email: faichney@opentext.com
+robot-status: active
+robot-purpose: indexing
+robot-type: standalone
+robot-platform: UNIX
+robot-availability: inquire to markk@opentext.com (Mark Kraatz)
+robot-exclusion: yes
+robot-exclusion-useragent: Open Text Site Crawler
+robot-noindex: no
+robot-host: *.opentext.com
+robot-from: yes
+robot-useragent: Open Text Site Crawler V1.0
+robot-language: perl/C
+robot-description: This robot is run by Open Text Corporation to produce the
+ data for the Open Text Index
+robot-history: Started in May/95 to replace existing Open Text robot which
+ was based on libwww
+robot-environment: commercial
+modified-date: Fri Jul 25 11:46:56 EDT 1997
+modified-by: John Faichney
+
 robot-id:           sitetech
 robot-name:         SiteTech-Rover
 robot-cover-url:    http://www.sitetech.com/
@@ -6133,6 +6190,31 @@ robot-history: This robot is the result of a 3 years old late night hack when
 robot-environment: service
 modified-date: Tue Apr  7 16:25:05 MET DST 1998
 modified-by: Frank Tore Johansen <ftj@sys.sol.no>
+
+robot-id: spanner
+robot-name: Spanner
+robot-cover-url: http://www.kluge.net/NES/spanner/
+robot-details-url: http://www.kluge.net/NES/spanner/
+robot-owner-name: Theo Van Dinter
+robot-owner-url: http://www.kluge.net/~felicity/
+robot-owner-email: felicity@kluge.net
+robot-status: development
+robot-purpose: indexing,maintenance
+robot-type: standalone
+robot-platform: unix
+robot-availability: source
+robot-exclusion: yes
+robot-exclusion-useragent: Spanner
+robot-noindex: yes
+robot-host: *.kluge.net
+robot-from: yes
+robot-useragent: Spanner/1.0 (Linux 2.0.27 i586)
+robot-language: perl
+robot-description: Used to index/check links on an intranet.
+robot-history: Pet project of the author since beginning of 1996.
+robot-environment: hobby
+modified-date: Mon, 06 Jan 1997 00:00:00 GMT
+modified-by: felicity@kluge.net
 
 robot-id:speedy
 robot-name:Speedy Spider
@@ -6599,6 +6681,32 @@ robot-history: This robot was originally created as a test-of-concept.
 robot-environment: service, commercial, research, hobby
 modified-date: Sun, 6 Apr 1997 10:00:00 GMT
 modified-by: Neal Krawetz
+
+robot-id:teoma_agent1
+robot-name:TeomaTechnologies
+robot-cover-url:http://www.teoma.com/
+robot-details-url:
+robot-owner-name:
+robot-owner-url:
+robot-owner-email:teoma_admin@hawkholdings.com
+robot-status:active
+robot-purpose:
+robot-type:
+robot-platform:
+robot-availability:none
+robot-exclusion:no
+robot-exclusion-useragent:
+robot-noindex:unknown
+robot-host:63.236.92.145
+robot-from:
+robot-useragent:teoma_agent1 [teoma_admin@hawkholdings.com]
+robot-language:unknown
+robot-description:Unknown robot visiting pages and tacking "%09182837231" or
+ somesuch onto the ends of URL's.
+robot-history:unknown
+robot-environment:unknown
+modified-date:Thu, 04 Jan 2001 09:05:00 PDT
+modified-by: kph
 
 robot-id: titin
 robot-name: TitIn

@@ -2,21 +2,20 @@
 
 from setuptools import setup, find_packages
 
-setup(name="robot-detection",
-      version="0.4",
-      author="Rory McCann",
-      author_email="rory@technomancy.org",
-      py_modules=['robot_detection'],
-      summary="Library for detecting if a HTTP User Agent header is likely to be a bot",
-      description="Library for detecting if a HTTP User Agent header is likely to be a bot",
-      url="https://github.com/rory/robot-detection",
+setup(name="nginx_log_bot_statistic",
+      version="0.1",
+      author="HectorTwist",
+      py_modules=['nginx_log_bot_statistic'],
+      summary="Library for parse NGINX access.log files and grep info about bot requests",
+      description="Library for parse NGINX access.log files and grep info about bot requests",
+      url="https://github.com/SergeyFrancev/nginx-log-bot-statistic",
       license="GPLv3+",
       test_suite='tests',
       install_requires = [
           "six",
       ],
       classifiers=[
-            'Development Status :: 4 - Beta',
+            'Development Status :: 1 - Beta',
             'Environment :: Web Environment',
             'Intended Audience :: Developers',
             'Intended Audience :: System Administrators',
